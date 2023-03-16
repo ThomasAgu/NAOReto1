@@ -1,0 +1,43 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+header{
+    height: 60vh;
+}
+
+nav{
+    z-index: 10;
+}
+#backgroundIMG{
+    z-index: -10;
+    height: 60vh;
+    background-image: url(../img/BackgroundInit.svg);
+    background-size: cover;
+    width: 100%;
+}
+
+#title{
+    z-index: 10000;
+}
+
+#imgcurse1{
+    height: 50vh;
+    width: 100%;
+    background-image: url(../img/lavadodedinero.svg);
+}
+
+#imgcurse2{
+    height: 50vh;
+    width: 100%;
+    background-image: url(../img/taxfraud.svg);
+}
+
+#imgcurse3{
+    height: 50vh;
+    width: 100%;
+    background-image: url(../img/prestamos.svg);
+}
+
+#card-info1, #card-info2, #card-info3{
+    width: fit-content;
+    box-shadow: inset 0px 0px 500px 5px #0D1F2D;
+}
