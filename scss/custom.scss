@@ -41,3 +41,46 @@ nav{
     width: fit-content;
     box-shadow: inset 0px 0px 500px 5px #0D1F2D;
 }
+
+#barra-vertical{
+    transform: rotate(90deg);
+    transform-origin: left;
+    width: 5rem;
+    
+}
+#barra-horizontal-2{
+    width: 5rem;
+}
+
+
+#barra-vertical-2{
+    transform: rotate(90deg);
+    transform-origin: right;
+    width: 5rem;
+}
+
+
+
+#barra-horizontal{
+    width: 5rem;
+}
+
+#barra-horizontal-subtitle{
+    width: 1rem;
+}
+
+#barra-vertical-subtitle{
+    transform: rotate(90deg);
+    transform-origin: left;
+    width: 1rem;
+}
+
+#barra-horizontal-subtitle-2{
+    width: 1rem;
+}
+#barra-vertical-subtitle-2{
+    transform: rotate(90deg);
+    transform-origin: right;
+    width: 1rem;
+    
+}
