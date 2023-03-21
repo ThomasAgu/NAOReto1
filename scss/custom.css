@@ -10822,9 +10822,29 @@ textarea.form-control-lg {
 header {
   height: 60vh;
 }
+header h1, header .h1 {
+  font-family: "Montserrat", sans-serif;
+}
+header h2, header .h2 {
+  font-family: "Open Sans", sans-serif;
+}
+
+#myname {
+  font-family: "Merriweather", serif;
+  font-size: 7rem;
+}
+
+h3, .h3 {
+  font-family: "Open Sans", sans-serif;
+}
 
 nav {
   z-index: 10;
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  font-family: "Roboto", sans-serif;
 }
 
 #backgroundIMG {
@@ -10901,4 +10921,26 @@ nav {
   transform: rotate(90deg);
   transform-origin: right;
   width: 1rem;
+}
+
+#sobremi-items {
+  font-family: "Roboto", sans-serif;
+}
+
+#section-cursos {
+  font-family: "Open Sans", sans-serif;
+}
+
+#client-name {
+  font-family: "Roboto", sans-serif;
+}
+
+#client-comment {
+  font-family: "Open Sans", sans-serif;
+}
+
+#btn-send {
+  font-size: 120%;
+  height: 100%;
+  font-weight: bolder;
 }/*# sourceMappingURL=custom.css.map */

@@ -1,11 +1,39 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+
+$font-title: 'Montserrat', sans-serif;
+$font-subtitle: 'Open Sans', sans-serif;
+$font-text: 'Roboto', sans-serif;
+$font-name: 'Merriweather', serif;
+
 header{
     height: 60vh;
+
+    h1{
+        font-family: $font-title;
+    }
+    h2{
+        font-family: $font-subtitle;
+    }
+}
+#myname{
+    font-family: $font-name;
+    font-size: 7rem;
+}
+
+h3{
+    font-family: $font-subtitle;
 }
 
 nav{
     z-index: 10;
+    font-family: $font-text;
+}
+
+form{
+    font-family: $font-text;
+
+  
 }
 #backgroundIMG{
     z-index: -10;
@@ -83,4 +111,27 @@ nav{
     transform-origin: right;
     width: 1rem;
     
+}
+
+#sobremi-items{
+    font-family: $font-text;
+}
+
+#section-cursos{
+    font-family: $font-subtitle;
+}
+
+#client-name{
+    font-family: $font-text;
+}
+
+#client-comment{
+    font-family: $font-subtitle;
+}
+
+#btn-send{
+    font-size: 120%;
+    height: 100%;
+    font-weight: bolder;
+
 }
