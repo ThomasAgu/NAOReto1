@@ -10887,9 +10887,37 @@ h3, .h3 {
   font-family: "Open Sans", sans-serif;
 }
 
+#span {
+  color: white;
+}
+
 nav {
   z-index: 10;
   font-family: "Roboto", sans-serif;
+}
+nav ul li {
+  width: 100%;
+}
+@media screen and (max-width: 576px) {
+  nav ul li {
+    width: 100%;
+    background-color: #0D1F2D;
+    color: #F4f4f4;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 576px) {
+  nav ul li {
+    width: 100%;
+    background-color: #0D1F2D;
+    color: #F4f4f4;
+  }
+}
+@media screen and (min-width: 768px) {
+  nav ul li {
+    width: 100%;
+    background-color: #0D1F2D;
+    color: #F4f4f4;
+  }
 }
 
 form {
