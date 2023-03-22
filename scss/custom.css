@@ -10936,21 +10936,21 @@ form {
 #barra-vertical {
   transform: rotate(90deg);
   transform-origin: left;
-  width: 5rem;
+  width: 5%;
 }
 
 #barra-horizontal-2 {
-  width: 5rem;
+  width: 5%;
 }
 
 #barra-vertical-2 {
   transform: rotate(90deg);
   transform-origin: right;
-  width: 5rem;
+  width: 5%;
 }
 
 #barra-horizontal {
-  width: 5rem;
+  width: 5%;
 }
 
 #barra-horizontal-subtitle {
