@@ -11021,6 +11021,18 @@ form {
   font-size: 120%;
   height: 100%;
   font-weight: bolder;
+  background-color: #0D1F2D;
+  color: #F7F7F7;
+  border: 2px solid #F7F7F7;
+  transition: all 0.9s cubic-bezier(0.19, 1, 0.22, 1);
+}
+#btn-send:hover {
+  height: 110%;
+  font-size: 150%;
+  font-weight: 600;
+  background-color: #B8D8BA;
+  color: #0D1F2D;
+  border: 5px solid #0D1F2D;
 }
 
 #footerStonks {
